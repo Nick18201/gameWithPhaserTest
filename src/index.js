@@ -25,8 +25,12 @@ function preload ()
   );
 }
 
+let platforms;
+
 function create ()
 {
+  this.add.image(0, 0, 'sky').setOrigin(0, 0);
+  this.add.image(400, 300, 'star');
 }
 
 function update ()
